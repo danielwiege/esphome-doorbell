@@ -107,7 +107,7 @@ binary_sensor:
     name: Doorbell
     filters:
       - delayed_on: 50ms
-      - delayed_off: 2s
+      - delayed_off: 50ms
     on_press:
       then:
         - if:
